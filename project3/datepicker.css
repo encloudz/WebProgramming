@@ -1,0 +1,129 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.normal {
+    font-weight: bold;
+}
+
+.button:hover{
+    opacity: 50%;
+    transition: 1s;
+}
+
+.button {
+    padding: 4px;
+}
+
+.dim {
+    opacity: 40%;
+}
+
+table {
+    padding: 10px;
+    width: 500px;
+}
+
+table, th {
+    border: 2px solid black;
+}
+
+td {
+    border: 1px solid green;
+    text-align: center;
+}
+
+td:hover{
+    border: 0px;
+    background-color: #34eb55;
+    transition: 0.5s;
+}
+
+span {
+    font-size: 28pt;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table, th, td {
+    text-align: center;
+}
+
+/*   */
+
+/*
+body{
+    background-color: blueviolet;
+    font-family: 'Nunito', sans-serif;
+}
+table, th, td {
+    text-align: center;
+    cursor: default;
+    border-collapse: collapse;
+}
+table{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    height: auto;
+    border-radius: 10px;
+    background-color: aliceblue;
+    margin-bottom: 60px;
+}
+h1{
+    color: white;
+    
+}
+#datepicker1perv,#datepicker2perv,#datepicker1next,#datepicker2next{
+    height: 68px;
+    background-color: red;
+    color: white;
+}
+.weeks {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: red;
+}
+#datepicker1Year,#datepicker2Year{
+    height: 68px;
+    background-color: red;
+    color: white;
+}
+#datepicker1Month,#datepicker2Month{
+    height: 68px;
+    background-color: red;
+    color: white;
+}
+.curDate{
+    padding: 10px;
+  
+}
+.curDate:hover{
+    color: white;
+    background-color: gray;
+    opacity: 0.5;
+    border-radius: 5%;
+}
+/*
+.now{
+    padding: 10px;
+    border: 1px solid black;
+}
+*/
+.beforeDate{
+    padding: 10px;
+    color: grey;
+}
+/*
+.beforeDate:hover,.nextDate:hover{
+    color:white;
+    background-color: grey;
+    border-radius: 5%;
+    opacity: 0.5;
+}
+*/
+.nextDate{
+    padding: 10px;
+    color: grey;
+}
